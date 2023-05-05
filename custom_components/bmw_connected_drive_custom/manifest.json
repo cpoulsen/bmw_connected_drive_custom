@@ -1,10 +1,11 @@
 {
-  "domain": "bmw_custom_integration",
-  "name": "BMW Custom Integration",
+  "domain": "bmw_connected_drive_custom",
+  "name": "BMW Connected Drive Custom",
   "codeowners": ["@cpoulsen"],
   "config_flow": true,
   "documentation": "https://github.com/cpoulsen/bmw_connected_drive_custom",
   "iot_class": "cloud_polling",
   "loggers": ["bimmer_connected_custom"],
-  "requirements": ["bimmer_connected==0.13.2"]
+  "requirements": ["bimmer_connected==0.13.2"],
+  "version": "1.0.0"
 }

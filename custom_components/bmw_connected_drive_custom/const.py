@@ -1,7 +1,7 @@
 """Const file for the MyBMW integration."""
 from homeassistant.const import UnitOfLength, UnitOfVolume
 
-DOMAIN = "bmw_custom_integration"
+DOMAIN = "bmw_connected_drive_custom"
 ATTRIBUTION = "Data provided by MyBMW"
 
 ATTR_DIRECTION = "direction"
