@@ -1,0 +1,10 @@
+{
+  "domain": "bmw_custom_integration",
+  "name": "BMW Custom Integration",
+  "codeowners": ["@cpoulsen"],
+  "config_flow": true,
+  "documentation": "https://github.com/cpoulsen/bmw-custom-integration",
+  "iot_class": "cloud_polling",
+  "loggers": ["bimmer_connected_custom"],
+  "requirements": ["bimmer_connected==0.13.2"]
+}
