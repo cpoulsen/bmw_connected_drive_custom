@@ -77,7 +77,7 @@ SENSOR_TYPES: dict[str, BMWSensorEntityDescription] = {
         key="charging_target",
         name="Charging target",
         key_class="fuel_and_battery",
-        icon="mdi:ev-station",
+        icon="mdi:battery-charging-90",
         value=lambda x, y: x.value,
     ),
     "remaining_battery_percent": BMWSensorEntityDescription(
