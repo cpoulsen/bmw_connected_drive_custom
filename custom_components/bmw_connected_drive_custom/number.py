@@ -77,7 +77,7 @@ async def async_setup_entry(
                 [
                     BMWNumber(coordinator, vehicle, description)
                     for description in NUMBER_TYPES
-                    #if description.is_available(vehicle)
+                    if description.is_available(vehicle)
                 ]
             )
     async_add_entities(entities)
